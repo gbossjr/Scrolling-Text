@@ -27,14 +27,18 @@
         android:textAppearance="@android:style/TextAppearance.DeviceDefault"
         android:text="@string/article_subtitle" />
 
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/article_subheading">
     <TextView
         android:id="@+id/article"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/article_subheading"
         android:lineSpacingExtra="@dimen/line_spacing"
         android:padding="@dimen/padding_regular"
-        android:text="@string/article_text"/>
-
+        android:text="@string/article_text"
+        android:autoLink="web"/>
+    </ScrollView>
 
 </RelativeLayout>
