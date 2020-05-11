@@ -29,6 +29,8 @@
 
     <TextView
         android:id="@+id/article"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_below="@id/article_subheading"
         android:lineSpacingExtra="@dimen/line_spacing"
         android:padding="@dimen/padding_regular"
